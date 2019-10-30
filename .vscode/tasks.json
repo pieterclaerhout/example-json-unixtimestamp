@@ -1,0 +1,95 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "example-json-timestamp | build",
+            "command": "go-james build -v",
+            "type": "shell",
+            "group": "build",
+            "problemMatcher": [
+                "$go"
+            ]
+        },
+        {
+            "label": "example-json-timestamp | build darwin/amd64",
+            "command": "go-james build -v --goos=darwin --goarch=amd64",
+            "type": "shell",
+            "group": "build",
+            "problemMatcher": [
+                "$go"
+            ]
+        },
+        {
+            "label": "example-json-timestamp | build linux/amd64",
+            "command": "go-james build -v --goos=linux --goarch=amd64",
+            "type": "shell",
+            "group": "build",
+            "problemMatcher": [
+                "$go"
+            ]
+        },
+        {
+            "label": "example-json-timestamp | build windows/amd64",
+            "command": "go-james build -v --goos=windows --goarch=amd64",
+            "type": "shell",
+            "group": "build",
+            "problemMatcher": [
+                "$go"
+            ]
+        },
+        {
+            "label": "example-json-timestamp | clean",
+            "command": "go-james clean",
+            "type": "shell",
+            "group": "build",
+            "problemMatcher": [
+                "$go"
+            ]
+        },
+        {
+            "label": "example-json-timestamp | tests",
+            "command": "go-james test",
+            "type": "shell",
+            "group": "build",
+            "problemMatcher": [
+                "$go"
+            ]
+        },
+        {
+            "label": "example-json-timestamp | run",
+            "command": "go-james run",
+            "type": "shell",
+            "group": "build",
+            "problemMatcher": [
+                "$go"
+            ]
+        },
+        {
+            "label": "example-json-timestamp | install",
+            "command": "go-james install",
+            "type": "shell",
+            "group": "build",
+            "problemMatcher": [
+                "$go"
+            ]
+        },
+        {
+            "label": "example-json-timestamp | uninstall",
+            "command": "go-james uninstall",
+            "type": "shell",
+            "group": "build",
+            "problemMatcher": [
+                "$go"
+            ]
+        },
+        {
+            "label": "example-json-timestamp | run (debug)",
+            "command": "DEBUG=1 go-james run",
+            "type": "shell",
+            "group": "build",
+            "problemMatcher": [
+                "$go"
+            ]
+        }
+    ]
+}
